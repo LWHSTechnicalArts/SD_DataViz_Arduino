@@ -1,8 +1,4 @@
-// This #include statement was automatically added by the Particle IDE.
-#include <Ubidots.h>
-
-// This #include statement was automatically added by the Particle IDE.
-#include <Adafruit_VL53L0X.h>
+//needs these libraries: Ubidots, Adafruit_VL53L0X
 
 Adafruit_VL53L0X lox = Adafruit_VL53L0X();
 const char* WEBHOOK_NAME = "my-webhook";
